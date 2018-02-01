@@ -66,7 +66,7 @@ class CategoryController extends Controller
     public function actionCreate()
     {
         $model = new Category();
-
+        Yii::$app->session->setFlash('success', "Категорія {$model['name']} створена");
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
