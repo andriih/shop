@@ -452,12 +452,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Studio-42/elFinder.git",
-                "reference": "69f6bbbd8b5e29e5e1881b7ccd79729fd57d085f"
+                "reference": "1118be362d76b06cd4179a38caa193644f7ae45d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/69f6bbbd8b5e29e5e1881b7ccd79729fd57d085f",
-                "reference": "69f6bbbd8b5e29e5e1881b7ccd79729fd57d085f",
+                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/1118be362d76b06cd4179a38caa193644f7ae45d",
+                "reference": "1118be362d76b06cd4179a38caa193644f7ae45d",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
             ],
             "description": "File manager for web",
             "homepage": "http://elfinder.org",
-            "time": "2018-02-02T15:28:05+00:00"
+            "time": "2018-02-07T00:04:43+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -564,12 +564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "f7bf1d2913615a418fa13de59d3e1645ed4cf22f"
+                "reference": "bf2036272b92acbda5dadd2e4463087819040c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f7bf1d2913615a418fa13de59d3e1645ed4cf22f",
-                "reference": "f7bf1d2913615a418fa13de59d3e1645ed4cf22f",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/bf2036272b92acbda5dadd2e4463087819040c34",
+                "reference": "bf2036272b92acbda5dadd2e4463087819040c34",
                 "shasum": ""
             },
             "require": {
@@ -656,7 +656,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2018-02-05T11:12:20+00:00"
+            "time": "2018-02-07T08:55:43+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -664,12 +664,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "c84c84dcaf6d76f3b6c5fc4bce36e1173e042d81"
+                "reference": "30eee2b651453df49773d568713f7c9f9aa88053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/c84c84dcaf6d76f3b6c5fc4bce36e1173e042d81",
-                "reference": "c84c84dcaf6d76f3b6c5fc4bce36e1173e042d81",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/30eee2b651453df49773d568713f7c9f9aa88053",
+                "reference": "30eee2b651453df49773d568713f7c9f9aa88053",
                 "shasum": ""
             },
             "require": {
@@ -716,7 +716,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2018-02-02T14:54:19+00:00"
+            "time": "2018-02-05T12:12:44+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -774,12 +774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-jui.git",
-                "reference": "10492270c9a625e4785b59a1ac6155908eac8e37"
+                "reference": "0438b11090198e9bc8db415429f9bc306cd3f986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/10492270c9a625e4785b59a1ac6155908eac8e37",
-                "reference": "10492270c9a625e4785b59a1ac6155908eac8e37",
+                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/0438b11090198e9bc8db415429f9bc306cd3f986",
+                "reference": "0438b11090198e9bc8db415429f9bc306cd3f986",
                 "shasum": ""
             },
             "require": {
@@ -794,7 +794,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\jui\\": ""
+                    "yii\\jui\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -803,8 +803,20 @@
             ],
             "authors": [
                 {
+                    "name": "Alexander Kochetov",
+                    "email": "creocoder@gmail.com"
+                },
+                {
                     "name": "Qiang Xue",
                     "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru"
                 }
             ],
             "description": "The Jquery UI extension for the Yii framework",
@@ -812,7 +824,7 @@
                 "jQuery UI",
                 "yii2"
             ],
-            "time": "2017-12-24T16:46:34+00:00"
+            "time": "2018-02-06T14:24:55+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -1204,12 +1216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d6e741d47d59e592cdd7696ab1e670d8a870dbe9"
+                "reference": "c8db65327b73c8e0fa1c9e4d8d179d14a185b13a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d6e741d47d59e592cdd7696ab1e670d8a870dbe9",
-                "reference": "d6e741d47d59e592cdd7696ab1e670d8a870dbe9",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/c8db65327b73c8e0fa1c9e4d8d179d14a185b13a",
+                "reference": "c8db65327b73c8e0fa1c9e4d8d179d14a185b13a",
                 "shasum": ""
             },
             "require": {
@@ -1246,7 +1258,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2018-02-02T13:37:27+00:00"
+            "time": "2018-02-05T15:03:34+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1568,30 +1580,30 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "0.5.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "cf842904952e64e703800d094cdf34e715a8a3ae"
+                "reference": "ad39fb2becfa9ddc4b23b5e85c88123462d86ef2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/cf842904952e64e703800d094cdf34e715a8a3ae",
-                "reference": "cf842904952e64e703800d094cdf34e715a8a3ae",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/ad39fb2becfa9ddc4b23b5e85c88123462d86ef2",
+                "reference": "ad39fb2becfa9ddc4b23b5e85c88123462d86ef2",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
-                "phpdocumentor/reflection-common": "^1.0"
+                "php": ">=7.1",
+                "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^6.4"
+                "phpunit/phpunit": "^6.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "0.x-dev"
                 }
             },
             "autoload": {
@@ -1609,7 +1621,7 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2017-12-30T13:23:38+00:00"
+            "time": "2018-01-31T13:23:25+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -2312,29 +2324,28 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "ebf0c4e8996ad83136861660593aa6b3b1bb24cf"
+                "reference": "abcc70409ddfb310a8cb41ef0c2e857425438cf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/ebf0c4e8996ad83136861660593aa6b3b1bb24cf",
-                "reference": "ebf0c4e8996ad83136861660593aa6b3b1bb24cf",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/abcc70409ddfb310a8cb41ef0c2e857425438cf4",
+                "reference": "abcc70409ddfb310a8cb41ef0c2e857425438cf4",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.0",
-                "symfony/process": "^2 || ^3.3 || ^4"
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -2359,12 +2370,9 @@
             "description": "Diff implementation",
             "homepage": "https://github.com/sebastianbergmann/diff",
             "keywords": [
-                "diff",
-                "udiff",
-                "unidiff",
-                "unified diff"
+                "diff"
             ],
-            "time": "2018-02-02T07:14:03+00:00"
+            "time": "2017-12-14T11:32:19+00:00"
         },
         {
             "name": "sebastian/environment",
